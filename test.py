@@ -1,4 +1,4 @@
-string = 'manjulambae'
+string = 'banjulambae'
 
 first_str = string[:len(string)//2]
 second_str = string[len(string)//2:]
