@@ -1,8 +1,48 @@
-string = 'banjulambae'
+# string = 'banjulambae'
 
-first_str = string[:len(string)//2]
-second_str = string[len(string)//2:]
-second_first_str = second_str[::-1]
+# first_str = string[:len(string)//2]
+# second_str = string[len(string)//2:]
+# second_first_str = second_str[::-1]
 
-print (first_str ,second_str,second_first_str)
-#test123
+# print (first_str ,second_str,second_first_str)
+
+# def partition (l,r,nums):
+#     pivot, ptr = num[r], l
+#     for i in range(l,r):
+#         if nums[i] <= pivot:
+#             nums[i], nums[ptr] = nums[ptr], nums[i]
+
+
+# def partition(l, r, nums):
+# 	pivot, ptr = nums[r], l
+# 	for i in range(l, r):
+# 		if nums[i] <= pivot:
+# 			nums[i], nums[ptr] = nums[ptr], nums[i]
+# 			ptr += 1
+
+# 	nums[ptr], nums[r] = nums[r], nums[ptr]
+# 	return ptr
+
+
+
+
+# def quicksort(l, r, nums):
+# 	if len(nums) == 1:
+# 		return nums
+# 	if l < r:
+# 		pi = partition(l, r, nums)
+# 		quicksort(l, pi-1, nums)
+# 		quicksort(pi+1, r, nums) 
+# 	return nums
+
+
+# example = [4, 5, 1, 2, 3]
+# print(quicksort(0, len(example)-1, example))
+
+# example = [2, 5, 6, 1, 4, 6, 2, 4, 7, 8]
+# print(quicksort(0, len(example)-1, example))
+
+string = [1,2,3,4,5,6]
+print (string)
+reverse = string[::-1]
+print (reverse)
